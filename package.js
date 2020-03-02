@@ -29,7 +29,7 @@ Package.onUse(api => {
     'mongo',
     'ejson',
     'random',
-    'raix:eventstate@0.0.5',
+    'raix:eventstate@0.0.4',
   ], ['client', 'server'])
 
   api.use('mongo', 'server')
